@@ -13,9 +13,20 @@ h4 {
 }
 
 .nav {
-  margin-left: 40%;
   font-size: 120%;
 }
+@media (max-width: 499px) {
+  .nav{
+    margin-left:20%
+  }
+}
+
+@media (min-width: 500px) {
+  .nav {
+    margin-left: 40%;
+  }
+}
+
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     color: #fff;
     background-color: #2facbf
